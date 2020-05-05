@@ -1,2 +1,2 @@
 # griffin-siebert.github.io
-portfolio
+Grif's Portfolio
