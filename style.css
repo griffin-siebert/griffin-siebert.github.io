@@ -1,55 +1,181 @@
 body {
-    height: 100%;   
-    overflow: hidden;  /*makes the body non-scrollable (we will add scrolling to the sidebar and main content containers)*/
-    margin: 0px;  /*removes default style*/
-    display: flex;  /*enables flex content for its children*/
-    box-sizing: border-box;
+  height: 100%;
+  overflow: hidden;
+  /*makes the body non-scrollable (we will add scrolling to the sidebar and main content containers)*/
+  margin: 0px;
+  /*removes default style*/
+  display: flex;
+  /*enables flex content for its children*/
+  box-sizing: border-box;
 }
+
 html {
-    height: 100%;
+  height: 100%;
 }
 
 img {
-    object-fit: contain;
-  }
-
-#button-wrap{
-    padding-top:200px;
+  object-fit: contain;
 }
 
-#sidebar{
-    width:20%;
-    flex-shrink: 0;
-    flex-grow: 1;  /*ensures that the container will take up the full height of the parent container*/
-    overflow-y: auto;  /*adds scroll to this container*/
-   
+#button-wrap {
+  padding-top: 200px;
 }
 
-#main{
-    width:80%;
-    flex-grow: 1;  /*ensures that the container will take up the full height of the parent container*/
-    overflow-y: auto;  /*adds scroll to this container*/
+#sidebar {
+  width: 20%;
+  flex-shrink: 0;
+  flex-grow: 1;
+  /*ensures that the container will take up the full height of the parent container*/
+  overflow-y: auto;
+  /*adds scroll to this container*/
+}
 
-   
+#main {
+  width: 80%;
+  flex-grow: 1;
+  /*ensures that the container will take up the full height of the parent container*/
+  overflow-y: auto;
+  /*adds scroll to this container*/
 }
 
 .column {
-    height: 100%;  /*allows both columns to span the full height of the browser window*/
-    display: flex;
-    flex-direction: column;  /*places the left and right headers above the bottom content*/
+  height: 100%;
+  /*allows both columns to span the full height of the browser window*/
+  display: flex;
+  flex-direction: column;
+  /*places the left and right headers above the bottom content*/
 }
 
-
 /*button*/
-
 .btn {
   background: none;
   border: none;
   cursor: pointer;
   line-height: 1.5;
-  font: 700 1.2rem 'Roboto Slab', sans-serif;
+  font: 700 1.2rem "Roboto Slab", sans-serif;
   padding: 1em 2em;
   letter-spacing: 0.05rem;
-  
 }
 
+/*/variables*/
+/* common styles !!! YOU DON'T NEED THEM */
+/* styles for a common effect !!!YOU NEED THEM */
+.effect {
+  /*display: flex; !!!uncomment this line !!!*/
+}
+.effect a {
+  text-decoration: none !important;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 20px;
+  font-size: 25px;
+  overflow: hidden;
+  position: relative;
+  color: #212121;
+  border: 2px solid #212121;
+}
+.effect a i {
+  position: relative;
+  z-index: 3;
+}
+.effect a:last-child {
+  margin-right: 0px;
+}
+.effect a:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.effect a i {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* varrius effect */
+.effect.varrius {
+  display: flex;
+  flex-direction: column;
+  padding-left: 35%;
+}
+.effect.varrius a {
+  transition: all 0.2s linear 0s;
+}
+.effect.varrius a:after {
+  content: "";
+  display: block;
+  width: 90%;
+  height: 90%;
+  top: -110%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  background-color: #212121;
+  border-radius: 50%;
+}
+.effect.varrius a:hover {
+  color: #fff;
+}
+.effect.varrius a:hover:after {
+  top: 5%;
+  transition: all 0.2s linear 0s;
+}
+
+/* thurio effect */
+.effect.thurio a {
+  transition: border-radius 0.2s linear 0s;
+  transform: rotate(45deg);
+}
+.effect.thurio a i {
+  transition: transform 0.01s linear 0s;
+  transform: rotate(-45deg);
+}
+.effect.thurio a:hover {
+  border-radius: 0px;
+}
+
+/* amiens effect */
+.effect.amiens a {
+  transition: all 0.2s linear 0.2s;
+}
+.effect.amiens a i {
+  transition: all 0.2s linear 0s;
+}
+.effect.amiens a:hover {
+  transition: all 0.2s linear 0s;
+  border-color: rgba(33, 33, 33, 0);
+}
+.effect.amiens a:hover i {
+  transform: scale(1.15);
+  text-shadow: 4px 0px 3px rgba(33, 33, 33, 0.3);
+  transition: all 0.2s linear 0.2s;
+}
+
+/* solanio effect */
+.effect.solanio a {
+  border: none;
+  overflow: visible;
+}
+.effect.solanio a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  transition: all 0.2s linear 0s;
+}
+.effect.solanio a:hover:after {
+  height: 0px;
+  top: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

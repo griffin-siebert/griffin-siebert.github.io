@@ -6,7 +6,9 @@ console.log(sidebar);
 
 let linksData = [
     {'key': 'Work', 'link': 'work'}, 
-    {'key': 'Art', 'link': 'art'}];
+    {'key': 'Film', 'link': 'film'},
+    {'key': 'Art', 'link': 'art'}
+];
 
 makeLinks(linksData, sidebar)
 
