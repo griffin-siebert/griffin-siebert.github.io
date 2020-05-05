@@ -15,11 +15,9 @@ makeLinks(linksData, sidebar)
 function makeLinks(links, div){
     for(let i in links){
         let b = document.createElement('button');
-        // b.setAttribute('content', 'test content');
         b.setAttribute('class', 'btn draw-border');
         b.innerHTML = links[i].key;
-        // b.onclick(()=> links[i].link);
-
+        b.onclick =  ()=> location.href = `${links[i].link}.html`
         div.appendChild(b);
     }
 }
