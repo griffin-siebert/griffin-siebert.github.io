@@ -1,7 +1,4 @@
-
-
-
-export function addImage(imgPath){
+function addImage(imgPath){
 
     let main = document.getElementById('main');
 
@@ -12,3 +9,5 @@ export function addImage(imgPath){
     main.appendChild(landingIm);
     
 }
+
+addImage('GRIF_EPOXY1.png');
