@@ -53,6 +53,29 @@ img {
   
 }
 
+.btn.btn-sm {
+  background: none;
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+  font: 700 .9rem 'Roboto Slab', sans-serif;
+  padding: 1em 2em;
+  letter-spacing: 0.05rem;
+}
+
+.work-sub img{
+  display:inline;
+  padding:10px;
+  height: 900px;
+  width: auto;
+}
+
+.work-sub{
+  overflow-x: scroll;
+  height:900px;
+  width:1800px;
+}
+
 
 
 /*/variables*/

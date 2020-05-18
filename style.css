@@ -57,6 +57,29 @@ img {
   letter-spacing: 0.05rem;
 }
 
+.btn.btn-sm {
+  background: none;
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+  font: 700 0.9rem "Roboto Slab", sans-serif;
+  padding: 1em 2em;
+  letter-spacing: 0.05rem;
+}
+
+.work-sub img {
+  display: inline;
+  padding: 10px;
+  height: 900px;
+  width: auto;
+}
+
+.work-sub {
+  overflow-x: scroll;
+  height: 900px;
+  width: 1800px;
+}
+
 /*/variables*/
 /* common styles !!! YOU DON'T NEED THEM */
 /* styles for a common effect !!!YOU NEED THEM */
