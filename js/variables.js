@@ -11,5 +11,5 @@ let workLinks = [
     {key: 'Tote Bags', id:'tote', links:['BANANATOTE.png', 'BEETTOTE.png', 'AVO_TOTE.png']}, 
     {key: 'Autumn Headwear', id:'aut', links:['AUTUMN_HANDS.png', 'AUTUMN_SHREDDER.png']}, 
     {key: 'Skateboard Graphics', id:'skate-g', links:['SKATEBOARD_BLUE.png', 'SKATEBOARD_WHITE.png']}, 
-    {key: 'Wheelbarrow', id:'wheel', links:[]}
+    {key: 'Wheelbarrow', id:'wheel', links:['WHEELBARROW_LIQUORSTORE.png']}
 ]
