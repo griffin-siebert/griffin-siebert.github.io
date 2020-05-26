@@ -25,10 +25,10 @@ function addWorkImage(imgPath, div){
     landingIm.setAttribute('src', `assets/${imgPath}`);
     
     div.appendChild(landingIm);
-    
 }
 
 function makeLinks(links, div){
+
     for(let i in links){
         let innerdiv = document.createElement('div');
         let b = document.createElement('button');
@@ -40,13 +40,14 @@ function makeLinks(links, div){
 
         let innerInner = document.createElement('div')
         innerdiv.append(innerInner);
+        
         for(let j in links[i].sub){
+
             let subB = document.createElement('button');
             subB.innerHTML = links[i].sub[j].key;
             subB.setAttribute('class', 'btn draw-border btn-sm');
             innerInner.appendChild(subB); 
             subB.onclick =  ()=> location.href = `#${links[i].sub[j].id}`;
-
         }
         
         b.onclick =  ()=> location.href = `${links[i].link}.html`;

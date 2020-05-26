@@ -46,6 +46,15 @@ img {
   /*places the left and right headers above the bottom content*/
 }
 
+.art-sub img {
+  width: 700px;
+  height: auto;
+}
+
+.art-sub {
+  width: 700px;
+}
+
 /*button*/
 .btn {
   background: none;

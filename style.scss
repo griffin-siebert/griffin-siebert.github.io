@@ -30,8 +30,6 @@ img {
     width:80%;
     flex-grow: 1;  /*ensures that the container will take up the full height of the parent container*/
     overflow-y: auto;  /*adds scroll to this container*/
-
-   
 }
 
 .column {
@@ -40,6 +38,13 @@ img {
     flex-direction: column;  /*places the left and right headers above the bottom content*/
 }
 
+.art-sub img{
+  width:700px;
+  height:auto;
+}
+.art-sub{
+  width:700px;
+}
 
 /*button*/
 

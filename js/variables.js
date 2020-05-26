@@ -12,4 +12,19 @@ let workLinks = [
     {key: 'Autumn Headwear', id:'aut', links:['AUTUMN_HANDS.png', 'AUTUMN_SHREDDER.png']}, 
     {key: 'Skateboard Graphics', id:'skate-g', links:['SKATEBOARD_BLUE.png', 'SKATEBOARD_WHITE.png']}, 
     {key: 'Wheelbarrow', id:'wheel', links:['WHEELBARROW_LIQUORSTORE.png']}
-]
+];
+
+let artLinks = [
+    {key: '', id: '', links: 'Contemplation_ART.png'},
+    {key: '', id: '', links: 'Ingemar_ART.png'},
+    {key: '', id: '', links: 'CRAIGKELLY_ART.png'},
+    {key: '', id: '', links: 'FAM_ART.png'},
+    {key: '', id: '', links: 'FLOWERBOOBS_ART.png'},
+    {key: '', id: '', links: 'Hands_ART.png'},
+    {key: '', id: '', links: 'JERRYBANJO_ART.png'},
+    {key: '', id: '', links: 'MAPLELEAF_ART.png'},
+    {key: '', id: '', links: 'MOAB_ART.png'},
+    {key: '', id: '', links: 'SUNFLOWER_ART.png'},
+    {key: '', id: '', links: 'SURFERDUDE_ART.png'},
+    {key: '', id: '', links: 'SWALLOWTAIL_ART.png'}
+];
