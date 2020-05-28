@@ -7,6 +7,11 @@ body {
   display: flex;
   /*enables flex content for its children*/
   box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+p {
+  font-weight: 200;
 }
 
 html {
@@ -52,7 +57,26 @@ img {
 }
 
 .art-sub {
-  width: 700px;
+  width: 800px;
+}
+
+.about-img {
+  width: 600px;
+  display: inline;
+  float: left;
+  height: auto;
+}
+
+.about-img img {
+  width: 600px;
+  height: auto;
+}
+
+.about-div {
+  display: inline-block;
+  float: left;
+  width: 500px;
+  padding: 10px;
 }
 
 /*button*/

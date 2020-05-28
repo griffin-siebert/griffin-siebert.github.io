@@ -4,6 +4,11 @@ body {
     margin: 0px;  /*removes default style*/
     display: flex;  /*enables flex content for its children*/
     box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+p{
+  font-weight: 200;
 }
 html {
     height: 100%;
@@ -23,7 +28,6 @@ img {
     flex-shrink: 0;
     flex-grow: 1;  /*ensures that the container will take up the full height of the parent container*/
     overflow-y: auto;  /*adds scroll to this container*/
-   
 }
 
 #main{
@@ -42,8 +46,28 @@ img {
   width:700px;
   height:auto;
 }
+
 .art-sub{
-  width:700px;
+  width:800px;
+}
+
+.about-img{
+  width: 600px;
+  display:inline;
+  float:left;
+  height:auto;
+}
+
+.about-img img{
+  width:600px;
+  height:auto;
+}
+
+.about-div{
+  display:inline-block;
+  float:left;
+  width: 500px;
+  padding:10px
 }
 
 /*button*/

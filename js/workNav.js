@@ -13,7 +13,6 @@ for(let i in workLinks){
     for(let j in workLinks[i].links){
         addWorkImage(workLinks[i].links[j], div);
     }
-
 }
 
 makeLinks(linksData, sidebar);
@@ -38,7 +37,7 @@ function makeLinks(links, div){
         div.appendChild(innerdiv);
         innerdiv.appendChild(b);
 
-        let innerInner = document.createElement('div')
+        let innerInner = document.createElement('div');
         innerdiv.append(innerInner);
         
         for(let j in links[i].sub){
