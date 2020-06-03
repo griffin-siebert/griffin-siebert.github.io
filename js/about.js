@@ -14,6 +14,7 @@ function addImage(imgPath){
 
     main.appendChild(aboutDiv);
     
+    
 }
 
 addImage('GRIF_EPOXY1.png');
