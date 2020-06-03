@@ -79,6 +79,12 @@ img {
   padding: 10px;
 }
 
+.home-button {
+  width: 80px;
+  padding-left: 150px;
+  height: auto;
+}
+
 /*button*/
 .btn {
   background: none;
@@ -121,8 +127,31 @@ img {
 }
 
 #nitro.work-sub {
-  width: 2200px;
+  width: 5200px;
+  padding-top: 150px;
+}
+
+#tote.work-sub {
+  width: 5000px;
   padding-top: 100px;
+}
+
+#wheel.work-sub {
+  width: 3000px;
+  height: 900px;
+  padding-top: 100px;
+}
+
+#aut.work-sub {
+  padding-top: 100px;
+}
+
+#aut.work-sub img {
+  height: 600px;
+}
+
+#wheel.work-sub img {
+  height: 500px;
 }
 
 /*/variables*/
